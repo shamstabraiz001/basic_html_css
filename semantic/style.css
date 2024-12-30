@@ -1,0 +1,55 @@
+*{
+    padding: 0rem;
+    margin: 0rem;
+
+}
+header{
+    background-color: aquamarine;
+
+    ul{
+        display: flex;
+        padding: 1rem;
+        justify-content: space-around;
+        list-style: none;
+        font-size:1.5rem ;
+    }
+
+}
+nav{
+    background-color: lightcoral;
+
+    ul{
+        display: flex;
+        padding: 1rem;
+        justify-content: space-around;
+        list-style: none;
+        font-size:1rem ;
+    }
+
+}
+section{
+ display: flex;
+ width: 100%;
+ 
+
+ aside{
+    background-color: aqua;
+    width: 20%;
+
+    
+ }
+ main{
+    background-color: brown;
+    width: 80%;
+
+ }
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 1rem;
+
+    li{
+        padding: 1rem;
+    }
+}
