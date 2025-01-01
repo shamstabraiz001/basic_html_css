@@ -1,0 +1,22 @@
+*{
+    background-color: rgb(246, 248, 248);
+    
+}
+
+
+div {
+    background-color: aqua;
+}
+h2 {
+    background-color: black;
+    color: white;
+}
+#main_div {
+    background-color: bisque;
+}
+.heading{
+    background-color: blue;
+}
+h3, p, h6 {
+    font-size: 30px;
+}
