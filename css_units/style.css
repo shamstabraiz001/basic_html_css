@@ -1,0 +1,21 @@
+body {
+    --rem: 14;
+  }
+  div {
+    font-size: 15px;
+  }
+  .first_div {
+    background-color: antiquewhite;
+    /* width: 50%; */
+    width: 50vw;
+    height: 60vh;
+  }
+  .heading_3 {
+    color: blue;
+    /* font-size: 22px; */
+    /*1rem = 16px  */
+    font-size: 1.5rem;
+  }
+  .para {
+    font-size: 1.4em;
+  }
