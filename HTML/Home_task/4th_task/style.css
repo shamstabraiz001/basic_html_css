@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    background-image: url(../image/5.jpg) ;
+    background-size: cover;
+    background-position: center;
+    height: 695px;
+
+    .main_div{
+        /* width: 100%; */
+        /* display: flex; */
+        
+        .cards{
+            display: inline-block;
+            margin-top: 10rem;
+            width:30% ;
+            background-color: rgba(0, 0, 0, 0.4);
+            margin: 1rem;
+            border-radius: 10px;
+            text-align: center;
+
+            h1{
+                font-size: 3rem;
+                color: #eb3a3a ;
+            }
+            p{
+                font-size:17px ;
+                color: #af8c8c ;
+            }
+            img{
+                border-radius:10px ;
+                width: 400px;
+                height: 200px;
+            }
+            button{
+                background-color: rgb(100, 88, 88);
+                border-radius: 10px;
+                border: 1px solid red;
+                cursor: pointer;
+                width:25%;
+                padding: 4px;
+                margin: 5px 0px;
+            }
+        }
+
+    }
+}
