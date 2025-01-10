@@ -6,51 +6,58 @@
 }
 #container {
   background-color: hsl(214, 71%, 91%);
-  padding-left: 2rem; 
+  padding-left: 2rem;
 
   div {
-    display: inline-block;  
-    width: 100%; 
+    display: inline-block;
+    height: 694px;
 
     .first_div {
-        width: 20%;
-      
-        .first_heading {
-          font-size: 2.5rem;
-        }
-        p {
-          color: gray;
-        }
-        .btn {
-          background-color: hsl(232.03deg 73.56% 65.88%);
-          outline: none;
-          border-radius: 3px;
-          width: 13rem;
-          height: 2rem;
-          color: #fff;
-          cursor: pointer;
-        }
+      display: inline-block;
+      padding: 1rem 0 0 8rem;
+
+      .first_heading {
+        font-size: 2.5rem;
+      }
+      p {
+        color: gray;
+      }
+      .btn {
+        background-color: hsl(232.03deg 73.56% 65.88%);
+        outline: none;
+        border-radius: 10px;
+        width: 13rem;
+        height: 2rem;
+        color: #fff;
+        cursor: pointer;
+      }
     }
-      
+
     .second_div {
-        margin: 3rem;
-      
-        img {
-          border-top: 2rem solid rgb(170, 164, 164);
-          width: 20%;
-        }
-    }   
-}
 
-
-
+      img {
+        height: 550px;
+        border: 5px solid rgb(204, 244, 244);
+        display: inline-block;
+        /* position: absolute;
+        right: 10px;
+        top: 2px;
+        padding: 1.5rem 6rem; */
+        margin-top: 3rem;
+        width:400px;
+      }
+    }
+  }
 }
 #second_container {
   .second_div {
     text-align: center;
-    margin-top: 8rem;
-    height: 400px;
-    padding-bottom: -1rem;
+    margin-top: 10rem;
+    height: 500px;
+
+    .second_heading {
+      font-size: 3rem;
+    }
 
     p {
       color: gray;
@@ -65,39 +72,37 @@
     h1 {
       color: hsl(232.03deg 73.56% 65.88%);
       margin: 2rem;
-      padding-left: 8rem;
+      padding-left: 5rem;
     }
 
     p {
       color: black;
       margin-top: -1rem;
-      padding-left: 8rem;
+      padding-left: 4rem;
       margin-bottom: 4rem;
     }
   }
 }
 #third_container {
   background-color: hsl(214, 71%, 91%);
-  height: 500px;
+  height: 650px;
   text-align: center;
   padding-top: 3rem;
   margin-bottom: -4rem;
 
   h6 {
-    font-family: sans-serif !important   ;
-    font-size: 0.8rem;
+    font-size: 1rem;
     margin: 4px;
     color: hsl(232.03deg 73.56% 65.88%);
     padding: 1rem;
   }
   .last_heading {
-    font-size: 2rem;
+    font-size: 3rem;
   }
   p {
     color: gray;
   }
   .last_main_div {
-    /* display: flex; */
     padding: 3rem;
     margin-left: 10rem;
 
