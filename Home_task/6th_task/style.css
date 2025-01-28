@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grid_layout {
+    display: grid;
+    grid-template-areas: "header header" " aside mainContent " "footer footer";
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-auto-rows: 100px;
+    height: 100vh;
+  }
+  .header {
+    grid-area: header;
+    background-color: rgb(21, 14, 5);
+    padding: 20px 0;
+    color: white;
+  }
+  .aside {
+    grid-area: aside;
+    background-color: aqua;
+    
+  }
+  .main {
+    grid-area: mainContent;
+    background-color:beige;
+    
+    .grid_div{
+        display: grid;
+        margin: 1rem;
+        gap: 8px;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows:repeat(3,150px);
+
+        .box1{
+            background-color: rgb(162, 76, 19);
+            grid-row: 1/1;
+
+            
+        }
+        .box2{
+            background-color: rgb(7, 104, 104);
+            columns: 2;
+            grid-row: 1/3;
+        }
+        .box3{
+            background-color: rgb(31, 27, 58);
+            grid-column: 3/5;
+        }
+        .box4{
+            background-color: rgb(2, 40, 40);
+            grid-column: 5;
+        }
+        .box5{
+            background-color: rgb(12, 7, 105);
+            grid-column: 6;
+        }
+        .box6{
+            background-color: rgb(38, 255, 0);
+            grid-column: 3/5;
+            grid-row: span 2;
+            
+        }
+        .box7{
+            background-color: rgb(116, 126, 28);
+            grid-row: 2;
+        }
+        .box8{
+            background-color: rgb(96, 33, 117);
+            grid-column: 5 /6;
+            grid-row: span 2;
+        }
+        .box9{
+            background-color: rgb(127, 44, 44);
+            grid-row: 3;
+            grid-column: span 2;
+            
+        }
+        .box10{
+            background-color: rgb(255, 0, 183);
+            grid-column: 6;
+        }
+        .box11{
+            background-color: rgb(55, 0, 255);
+            grid-column: 6;
+        }
+
+    }
+    
+  }
+  .footer {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+  }

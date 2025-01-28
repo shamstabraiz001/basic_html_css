@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>grid</title>
+</head>
+<body>
+    <section id="container">
+        <nav>
+            <h1>Css Grid example</h1>
+            <ul>
+                <li><img src="" alt="icon"></li>
+                <li><img src="" alt="icon"></li>
+            </ul>
+        </nav>
+        <main>
+            <div class="box_1">1</div>
+            <div class="box_2">2</div>
+            <div class="box_3">3</div>
+            <div class="box_4">4</div>
+            <div class="box_5">5</div>
+            <div class="box_6">6</div>
+            <div class="box_7">7</div>
+            <div class="box_8">8</div>
+            <div class="box_9">9</div>
+            <div class="box_10">10</div>
+            <div class="box_11">11</div>
+        </main>
+    </section>
+    
+</body>
+</html>  
+
+
+
+   <style>
+
+     .grid_example {
+       border: 1px solid black;
+       padding: 20px;
+    display: grid;
+    /* grid-template-columns: 50px 100px 200px 250px;*/
+      /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+      grid-template-columns: repeat(7, 1fr) ;
+      grid-template-rows:repeat(2, 150px);
+      grid-auto-rows: 150px ;
+      gap: 10px;
+  
+    }
+    .box {
+    background-color: rgb(0, 200, 255);
+    /* width: 100px; */
+    /* height: 100px; */
+  }
+  /* .box-1 {
+    
+    grid-column: 1/4;
+    grid-row:1/2 ;
+
+  }
+  .box-2 {
+    grid-row: 1/3;
+    }
+    .box-5 {
+      grid-row: 2/3;
+      }
+      .box-6 {
+        grid-row: 2/3;
+        }
+        .box-7 {
+          grid-row: 2/3;
+  }
+  .box-3{
+    grid-column: 5/-1;
+    } */
+  /* .grid_layout {
+    
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) ;
+    grid-template-rows:repeat(3, 150px);
+    grid-auto-rows: 150px ;
+    gap: 10px;
+    }
+    .img_1 {
+      background-image: url(../../../HTML/img/1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    grid-row: 1/2;
+    }
+  .img_2 {
+    background-image: url(../../../HTML/img/2.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    grid-row: 1/3;
+    }
+  .img_3 {
+    background-image: url(../../../HTML/img/3.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  }
+  .img_4 {
+    grid-row: 2/3;
+    background-image: url(../../../HTML/img/4.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    }
+    .img_5 {
+    background-image: url(../../../HTML/img/5.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    grid-row: 2/4;
+    }
+    .img_6 {
+    background-image: url(../../../HTML/img/download.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    grid-row: 3/4;
+    }
+    .img_7 {
+      grid-row: 3/4;
+    background-image: url(../../../HTML/img/1.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+  }
+
+  .grid_example1 {
+    display: grid;
+      grid-template-columns: repeat(4, 100px) ;
+    
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-auto-rows: 100px;
+      gap: 10px;
+  } */
+
+  .grid_layout {
+    display: grid;
+    grid-template-areas: "header header" " aside mainContent " "footer footer";
+    grid-template-columns: 100px 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-auto-rows: 100px;
+      /* grid-template-columns: repeat(3, 1fr) ;
+      grid-template-rows:repeat(3, 150px);
+      grid-auto-rows: 150px ;
+      gap: 10px; */
+      height: 100vh;
+  }
+  .header {
+    grid-area: header;
+    background-color: rgb(21, 14, 5);
+    padding: 20px 0;
+    color: white;
+  }
+  .aside {
+    grid-area: aside;
+    background-color: aqua;
+    
+  }
+  .main {
+    grid-area: mainContent;
+    background-color:beige;
+    
+  }
+  .footer {
+    grid-area: footer;
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    /* height: 20%; */
+  }
+  </style>

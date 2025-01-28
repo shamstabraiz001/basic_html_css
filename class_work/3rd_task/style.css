@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#grid_container{
+
+    display: grid;
+    gap: 8px;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows:repeat(4,150px);
+    height: 100vh;
+    color: beige;
+
+
+    .box1{
+
+        background-color: rgb(255, 140, 0);
+        grid-column: span 2;
+        grid-row: span 1;
+        text-align: center;
+        padding-top: 3rem;
+        font-size: 2rem;
+
+    }
+    .box2{
+
+        background-color: rgb(0, 255, 225);
+        grid-column: span 3;
+        grid-row: span 2;
+        text-align: center;
+        padding-top: 3rem;
+        font-size: 2rem;
+
+    }
+    .box3{
+
+        background-color: rgb(21, 1, 1);
+        grid-column: span 4;
+        grid-row: span 4;
+        text-align: center;
+        padding-top: 13rem;
+        font-size: 3rem;
+
+    }
+    .box4{
+
+        background-color: rgb(0, 157, 255);
+       grid-column: span 2;
+        grid-row: span 1;
+        text-align: center;
+        padding-top: 3rem;
+        font-size: 2rem;
+
+
+    }
+    .box5{
+
+        background-color: rgb(170, 255, 0);
+        grid-column: span 2;
+        grid-row: span 1;
+        text-align: center;
+        padding-top: 3rem;
+        font-size: 2rem;
+
+
+    }
+    .box6{
+        background-color: rgb(255, 187, 0);
+        grid-column: span 2;
+        grid-row: span 1;
+        text-align: center;
+        padding-top: 3rem;
+        font-size: 2rem;
+
+
+    }
+    .box7{
+
+        background-color: rgb(204, 255, 0);
+        grid-column: span 2;
+        grid-row: span 1;
+        text-align: center;
+        padding-top: 3rem;
+        font-size: 2rem;
+
+
+    }
+    .box8{
+
+        background-color: rgb(255, 0, 119);
+        text-align: center;
+        padding-top: 3rem;
+        font-size: 2rem;
+
+    }
+    .box9{
+
+        background-color: rgb(81, 255, 0);
+        grid-column: span 2;
+        grid-row: span 1;
+        text-align: center;
+        padding-top: 3rem;
+        font-size: 2rem;
+
+    }
+    .box10{
+
+        background-color: rgb(0, 255, 110);
+        grid-column: span 2;
+        grid-row: span 1;
+        text-align: center;
+        padding-top: 3rem;
+        font-size: 2rem;
+
+
+    }
+    .box11{
+
+        background-color: rgb(72, 0, 255);
+        grid-column: span 5;
+        text-align: center;
+        padding-top: 3rem;
+        font-size: 2rem;
+        
+
+    }
+    .box12{
+
+        background-color: rgb(255, 208, 0);
+        grid-column: span 2;
+        grid-row: span 1;
+        text-align: center;
+        padding-top: 3rem;
+        font-size: 2rem;
+
+
+    }
+
+
+}

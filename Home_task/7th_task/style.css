@@ -1,0 +1,218 @@
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+ul {
+    display: flex;
+    padding-left: 4rem;
+
+    li {
+        padding: 1rem;
+        text-align: center;
+        padding-left: 9rem;
+        list-style-type: none;
+
+    }
+
+}
+
+#grid_container {
+
+    display: grid;
+    margin: 1rem;
+    gap: 8px;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(5, 250px);
+
+
+
+
+    .box1 {
+        background-image: url("img/beautiful-scenery-river-surrounded-by-greenery-forest_181624-40482.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+
+    .box2 {
+        background-image: url(img/green-moss-rotting-tree-trunk-forest_1048944-30372317.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+
+    .box3 {
+        background-image: url(img/high-angle-view-pine-tree-forest_1048944-30374175.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .box4 {
+        background-image: url(img/mesmerizing-green-forest-full-different-kinds-unique-plants-yakushima-japan_181624-36812.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .box5 {
+        background-image: url(img/stock-photo-save-the-planet-aerial-view-of-coniferous-forest-and-planet-earth-double-exposure-2473462331.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+
+    .box6 {
+        background-image: url(./img/pine-trees-forest_1048944-30148117.jpg);
+        background-repeat: no-repeat;
+
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .box7 {
+        background-image: url(./img/trees-growing-forest_1048944-30368869.avif);
+        background-position: center;
+        background-repeat: no-repeat;
+
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .box8 {
+        background-image: url(img/pine-trees-forest_1048944-30148117.jpg);
+
+        background-repeat: no-repeat;
+
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+
+    .box9 {
+        background-image: url(img/istockphoto-1062132178-612x612.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+
+
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .box_10 {
+        background-image: url(img/istockphoto-1084883692-612x612.jpg);
+        background-position: center;
+
+        background-repeat: no-repeat;
+
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+
+    .box_11 {
+        background-image: url(img/istockphoto-1225677731-612x612.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+
+    .box_12 {
+        background-image: url(img/istockphoto-1367770356-612x612.jpg);
+        background-position: center;
+
+        background-repeat: no-repeat;
+
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .box13 {
+        background-image: url(img/istockphoto-1390905797-612x612.jpg);
+        background-position: center;
+
+        background-repeat: no-repeat;
+
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+
+    .box14 {
+        background-image: url(img/istockphoto-1457007148-612x612.jpg);
+        background-position: center;
+
+        background-repeat: no-repeat;
+
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .box15 {
+        background-position: center;
+        background-image: url(img/istockphoto-1492354497-612x612.jpg);
+        background-repeat: no-repeat;
+
+        grid-column: span 3;
+        grid-row: span 1;
+    }
+
+    .box16 {
+        background-position: center;
+        background-image: url(img/istockphoto-2176255376-2048x2048.jpg);
+        background-repeat: no-repeat;
+
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .box17 {
+        background-position: center;
+        background-image: url(img/istockphoto-2193237457-612x612.jpg);
+        background-repeat: no-repeat;
+
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+
+    .box18 {
+        background-position: center;
+        background-image: url(img/stock-photo-save-the-planet-aerial-view-of-coniferous-forest-and-planet-earth-double-exposure-2473462331.jpg);
+        background-repeat: no-repeat;
+
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .box19 {
+        background-position: center;
+        background-image: url(img/high-angle-view-pine-tree-forest_1048944-30374175.jpg);
+        background-repeat: no-repeat;
+
+        grid-column: span 4;
+        grid-row: span 1;
+    }
+
+    .box20 {
+        background-image: url(./img/istockphoto-1367770356-612x612.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+
+        grid-column: span 4;
+        grid-row: span 2;
+    }
+
+
+
+}

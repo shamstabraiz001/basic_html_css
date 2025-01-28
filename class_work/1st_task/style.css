@@ -1,0 +1,42 @@
+
+*{
+    margin: 0rem;
+    padding: 0rem;
+    font-style: initial;
+}
+.container{
+    background-color: rgb(171, 104, 79);
+    margin: 1rem;
+    border: 5px solid lightskyblue;
+    .head{
+        font-weight: bolder;
+        padding: 1rem;
+        color: #fff;
+    }
+    
+    img{
+        width: 70%;
+        padding: 1rem;
+    }
+    a{
+        padding: 1rem;
+        color: #531616;
+    }
+    .para{
+        padding: 1rem;
+        color: #fff8f8;
+        font-size: 1.2rem;
+    }
+}
+.git{
+    background-color: lightcoral;
+    margin: 1rem;
+    border: 5px solid rgb(51, 173, 132);
+    padding: 1rem;
+    
+    p{
+        padding: 0.5rem;
+    }
+
+    
+}

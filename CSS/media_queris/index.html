@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--    1200px xxl screen 
+        992px lg screen 
+        786px md medium screen 
+        576px sm small screen 
+
+-->
+
+    <header>
+      <nav>
+          <i class="fa-solid fa-bars bar-icon"></i>
+        <ul>
+          <li>one</li>
+          <li>two</li>
+          <li>three</li>
+          <li>four</li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="div1"><h4>Lorem ipsum dolor sit.</h4></div>
+      <div class="div2">div2</div>
+      <div class="div3">div3</div>
+    </main>
+
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+      .bar-icon {
+        display: none;
+      }
+      header {
+        background-color: rgb(151, 151, 151);
+        padding: 15px 0;
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+      }
+      ul li {
+        list-style: none;
+        font-size: 20px;
+      }
+
+      .main {
+        background-color: brown;
+        height: 50vh;
+        display: flex;
+        gap: 20px;
+        justify-content: space-around;
+        /* align-items: center; */
+      }
+     
+      div {
+        margin: 30px 10px;
+        width: 50%;
+        height: 40%;
+        background-color: aquamarine;
+      }
+      .div1 {
+        font-size: 20px;
+      }
+
+      @media (min-width: 567px) and (max-width: 992px) {
+        .main {
+          background-color: blue;
+        }
+        div {
+          height: 100%;
+        }
+        .div1 {
+          font-size: 10px;
+          color: red;
+        }
+      }
+       @media (max-width: 768px) {
+                .bar-icon {
+                    display: block;
+                    
+                }
+                nav ul {
+                    display: none;
+                }
+            }
+
+    </style>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
